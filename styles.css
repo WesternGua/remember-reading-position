@@ -1,0 +1,5 @@
+/* Hide only the note body while a saved scroll position is being restored.
+   The header/tab stays visible, so opening notes feels stable instead of flashing from top to saved position. */
+.workspace-leaf-content.remember-reading-position-restoring .view-content {
+  opacity: 0 !important;
+}

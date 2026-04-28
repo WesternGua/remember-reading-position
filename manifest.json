@@ -1,0 +1,10 @@
+{
+  "id": "remember-reading-position",
+  "name": "Remember Reading Position",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Remember and restore the last scroll position for each note.",
+  "author": "WesternGua",
+  "authorUrl": "https://github.com/WesternGua",
+  "isDesktopOnly": false
+}
