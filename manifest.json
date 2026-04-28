@@ -6,5 +6,6 @@
   "description": "Remember and restore the last scroll position for each note.",
   "author": "WesternGua",
   "authorUrl": "https://github.com/WesternGua",
+  "contributors": ["codex 5.4"],
   "isDesktopOnly": false
 }
