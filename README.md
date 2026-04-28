@@ -11,18 +11,6 @@
 - **处理重命名和删除** — 文件重命名时位置自动跟随，删除时自动清理。
 - **轻量无配置** — 开箱即用，无需任何设置。
 
-## 为什么选择本插件
-
-市面上同类插件（如 Remember cursor position）在恢复滚动位置时会出现"闪到顶部"的现象，影响阅读体验。本插件从架构层面解决了这个问题，恢复过程平滑无闪烁。
-
-经实测对比：
-
-| 对比项 | Remember cursor position | 本插件 |
-|--------|------------------------|--------|
-| 切换笔记时是否闪烁 | ⚠️ 有明显闪烁 | ✅ 平滑无闪烁 |
-| 源码/阅读模式分开记录 | ❌ | ✅ |
-| 自动清理旧记录 | ❌ | ✅ |
-
 ## 命令
 
 | 命令 | 说明 |
@@ -64,18 +52,6 @@ An Obsidian plugin that automatically remembers and restores the last scroll pos
 - **Smooth experience** — hides the note body briefly during restore to **completely eliminate the "flash to top" visual jump**. Compared side-by-side with similar plugins (e.g. Remember cursor position), this plugin provides a noticeably smoother experience when switching notes.
 - **Handles renames & deletes** — saved positions follow file renames and are cleaned up on deletion.
 - **Lightweight** — no settings UI needed; works out of the box.
-
-## Why This Plugin
-
-Most similar plugins (e.g. Remember cursor position) suffer from a "flash to top" effect when restoring scroll positions, which disrupts reading flow. This plugin solves the problem architecturally — no visual jump, period.
-
-实测对比 / Real-world comparison:
-
-| Feature | Remember cursor position | This plugin |
-|---------|------------------------|-------------|
-| Flashes when switching notes | ⚠️ Visible flash | ✅ Smooth, no flash |
-| Per-mode tracking (Source/Reading) | ❌ | ✅ |
-| Auto-cleanup of old records | ❌ | ✅ |
 
 ## Commands
 
